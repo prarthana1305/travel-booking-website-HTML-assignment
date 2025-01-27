@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and viewport settings for responsiveness -->
+    <meta charset="UTF-8"> <!-- Defines the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Ensures proper scaling on different devices -->
+    <title>Travel Flick - Travel Booking Website</title> <!-- Title displayed in the browser tab -->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3c6d79;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #E0E2EE;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+
+        main {
+            padding: 20px;
+            background-color: #E0E2EE;
+        }
+
+        h2 {
+            color: #3c6d79;
+        }
+
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .destination img {
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border: 1px solid #706f6f;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #3c6d79;
+            color: #E0E2EE;
+            padding: 15px;
+            text-align: center;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section: Represents the top part of the website, typically for navigation -->
+    <header>
+        <h1>Travel Flick</h1> <!-- Main heading of the website -->
+        <nav>
+            <ul>
+                <!-- Navigation links for the website -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section: Represents the main content of the page -->
+    <main>
+        <!-- Introduction Section: Describes what the website offers -->
+        <section>
+            <h2>About Our Website</h2>
+            <p>A travel booking website is an online platform that allows users to search, explore, and book various
+                travel services such as flights, hotels, car rentals, vacation packages, and activities. The website
+                typically includes features like destination information, travel packages, booking forms, and customer
+                support options. </p>
+        </section>
+
+
+        <!-- Top Destinations Section: A section that lists popular destinations -->
+        <section>
+            <h2>Top Destinations</h2>
+            <ul style="list-style: none; padding: 0;">
+                <!-- Paris Destination -->
+                <li class="destination">
+                    <figure>
+                        <img src="https://media.istockphoto.com/id/635758088/photo/sunrise-at-the-eiffel-tower-in-paris-along-the-seine.jpg?s=612x612&w=0&k=20&c=rdy3aU1CDyh66mPyR5AAc1yJ0yEameR_v2vOXp2uuMM="
+                            alt="Eiffel Tower">
+                        <figcaption>
+                            <strong>Paris:</strong> Paris, the capital city of France, is one of the most iconic and
+                            visited cities in the world. Known as the "City of Lights" and "City of Love", Paris is
+                            celebrated for its romantic ambiance, artistic heritage, and stunning architecture.
+                        </figcaption> <!-- Figure caption describing the image -->
+                    </figure>
+                </li>
+                <!-- Maldives Destination -->
+                <li class="destination">
+                    <figure>
+                        <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iFHrNi67BXAo/v1/-1x-1.webp"
+                            alt="Maldives">
+                        <figcaption>
+                            <strong>Maldives:</strong> The Maldives, aka The Republic of Maldives, is a tropical
+                            paradise located in the Indian Ocean, southwest of India and Sri Lanka. Renowned for its
+                            pristine white-sand beaches, crystal-clear turquoise waters, and luxury resorts.
+                        </figcaption>
+                    </figure>
+                </li>
+                <!-- Tokyo Destination -->
+                <li class="destination">
+                    <figure>
+                        <img src="https://girleatworld.net/wp-content/uploads/2024/01/tokyo-best-view-5-azabudai-skylobby.jpg"
+                            alt="Tokyo Skyline">
+                        <figcaption>
+                            <strong>Tokyo:</strong> Tokyo, the bustling capital of Japan, is a dynamic metropolis where
+                            traditional culture seamlessly blends with futuristic innovation. As one of the largest and
+                            most vibrant cities in the world, Tokyo offers something for everyone, from serene temples
+                            to cutting-edge technology and vibrant nightlife.
+
+
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Travel Package Section: Displays available travel packages -->
+        <section>
+            <h2>Travel Packages</h2>
+            <table>
+                <caption>Our Top Travel Packages</caption> <!-- Table caption to describe the contents -->
+                <thead>
+                    <!-- Table headers -->
+                    <tr>
+                        <th>Package Name</th>
+                        <th>Destination</th>
+                        <th>Price</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Individual rows of travel packages -->
+                    <tr>
+                        <td>Romantic Getaway</td>
+                        <td>Paris</td>
+                        <td>$2000</td>
+                        <td>7 Days</td>
+                    </tr>
+                    <tr>
+                        <td>Beach Paradise</td>
+                        <td>Maldives</td>
+                        <td>$3000</td>
+                        <td>5 Days</td>
+                    </tr>
+                    <tr>
+                        <td>City Explorer</td>
+                        <td>Tokyo</td>
+                        <td>$2500</td>
+                        <td>6 Days</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Travel Booking Form Section -->
+        <section>
+            <h2>Book Your Travel</h2>
+            <form>
+                <!-- <fieldset>: Used to group related elements within a form -->
+                <fieldset> <!-- Grouping form elements logically -->
+
+                    <!-- <legend>: Defines a caption for the fieldset, usually explaining the group -->
+                    <legend>Fill in Your Details</legend> <!-- Caption for the fieldset -->
+
+
+                    <label for="name">Name:</label><!-- <label>: Defines a label for each form element -->
+                    <input type="text" id="name" name="name" required><br><br>
+                    <!-- <input>: Creates an input field for users to enter their information -->
+                    <!-- Text input field for name, required for form submission -->
+
+
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <!-- Email input field, required for form submission -->
+
+                    <!-- Dropdown menu for selecting a destination -->
+                    <label for="destination">Destination:</label>
+                    <select id="destination" name="destination">
+                        <option value="paris">Paris</option>
+                        <option value="maldives">Maldives</option>
+                        <option value="tokyo">Tokyo</option>
+                    </select><br><br>
+
+                    <!-- Radio buttons to choose travel class -->
+                    <label>Travel Class:</label>
+                    <input type="radio" id="economy" name="class" value="economy" required>
+                    <label for="economy">Economy</label>
+
+                    <input type="radio" id="business" name="class" value="business">
+                    <label for="business">Business</label>
+
+                    <input type="radio" id="first" name="class" value="first">
+                    <label for="first">First Class</label><br><br>
+
+                    <!-- Checkbox options for additional services -->
+                    <label>Add-ons:</label>
+                    <input type="checkbox" id="insurance" name="addons" value="insurance">
+                    <!-- Checkbox for Insurance -->
+                    <label for="insurance">Insurance</label>
+
+                    <input type="checkbox" id="mealplan" name="addons" value="mealplan"> <!-- Checkbox for Meal Plan -->
+                    <label for="mealplan">Meal Plan</label><br><br>
+
+                    <!-- Submit button that sends the form data -->
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us: +1234-56-789 | <a href="mailto:travel@booking.com">travel@booking.com</a></p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+        <p>&copy; Travel Booking Website</p>
+    </footer>
+
+</body>
+
+</html>
